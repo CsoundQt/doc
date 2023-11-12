@@ -1,0 +1,40 @@
+theme:
+  name: readthedocs
+  
+site_name: CsoundQt Documentation
+
+nav:
+  - Home: 'index.md'
+  - 'Getting Started':
+    - Installation: 'gs_install.md'
+    - First Run and Trouble Shooting: 'gs_firstrun.md'
+    - Edit and Get Help: 'gs_edit.md'
+    - Run or Render to file: 'gs_run.md'
+    - Use  Widgets: 'gs_widgets.md'
+    - Configure CsoundQt and Csound: 'gs_configure.md'
+  - Configuration:
+    - Run: 'config_run.md'
+    - Advanced: 'config_advanced.md'
+    - General: 'config_general.md'
+    - Editor: 'config_editor.md'
+    - Widgets: 'config_widgets.md'
+    - Environment: 'config_environment.md'
+    - External: 'config_external.md'
+    - Template: 'config_template.md'
+  - Menus: 
+    - File: 'menu_file.md'
+    - Edit: 'menu_edit.md'
+    - Control: 'menu_control.md'
+    - View: 'menu_view.md'
+    - Examples: 'menu_examples.md'
+    - Favorites: 'menu_favorites.md'
+    - Scripts: 'menu_scripts.md'
+    - Help: 'menu_help.md'
+    - Context: 'menu_context.md'
+  - Additional Features:
+    - Utilities: 'utilities.md'
+    - HTML% Support: 'html5.md'
+    - Live Event Sheet: 'live.md'
+    - PythonQt: 'pythonqt.md'
+  - Tips and Tricks: 
+    - Tips and Tricks: 'tips.md'
