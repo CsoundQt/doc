@@ -1,7 +1,9 @@
+# CsoundQt Menu Items
+
 (On OS X, substitute *CTRL* key for *COMMAND* key and *ALT* for *OPTION* key.)  
 The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
 
-### File
+## File
 
    + **New** (*CTRL+N*) Create new untitled file
    + **Open** (*CTRL+O*) Open existing file
@@ -16,7 +18,7 @@ The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
    + **Templates** Select a file from Templates folder
    + **Exit** (*CTRL+Q*) Exit CsoundQt
 
-### Edit
+## Edit
 
    + **Undo** (*CTRL+Z*) Undo last change
    + **Redo** (*CTRL+SHIFT+Z*) Redo change
@@ -43,7 +45,7 @@ The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
    + **Configuration** Open configuration panel
    + **Set keyboard shortcuts** Change / set / restore keyboard shortcuts
 
-###Control
+## Control
 
    + **Run Csound** (*CTRL+R*) Run current csd file in realtime to sound card
    + **Run in Terminal** (*CTRL+SHIFT+R*) Run current csd in external shell
@@ -55,7 +57,7 @@ The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
    + **Edit AudioFile** Edit last audio file in external editor
    + **Play Audiofile** Play generated audio file in external player
 
-###View
+## View
 
    + **Focus Text Editor** (*ALT+0*) Focus to the CsoundQt editor
    + **Widgets** (*ALT+1*) Toggle Widget Panel visibility
@@ -70,7 +72,7 @@ The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
    + **View Full Screen** Toggle full screen view
    + **Split View** (*CRTL+SHIFT+A*) Toggle split view of instruments, score, and optional other sections
 
-###Examples
+## Examples
 
    + **Getting Started** Basic examples and built-in tutorials
    + **FLOSS Manual Examples** All examples from the [Csound FLOSS Manual](http://floss.booktype.pro/csound)
@@ -82,15 +84,15 @@ The key shortcuts can be changed in *Edit > Set keyboard shortcuts*
    + **Useful** Audio / MIDI tester and other useful stuff
    + **Miscellaneous** Various examples 
 
-###Favorites
+## Favorites
 
 Direct access to any folder which is set in *Configure > Environment > Favorite dir*
 
-###Scripts
+## Scripts
 
 This menu is only available when CsoundQt is compiled with Python support. It will then provide a collection of Python scripts which to control CsoundQt via the Python programming language.
 
-###Help
+## Help
 
    + **Show opcode entry** (*SHIFT+F1*) Show opcode entry for opcode under cursor or selected in Help Panel
    + **Show opcode entry in external browser** (*ALT+SHIFT+F1*) Opens opcode entry for opcode under cursor or selected in external browser
@@ -109,7 +111,7 @@ This menu is only available when CsoundQt is compiled with Python support. It wi
    + **About CsoundQt** Info and links
    + **Donate to CsoundQt** Free speech and free beer both need some support
 
-###Context
+## Context
 
 (Right mouse click in text area)
 
