@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Edit and Get Help - CsoundQt 1.1.3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Edit and Get Help";
+        var mkdocs_page_input_path = "gs_edit.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CsoundQt 1.1.3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_firstrun/">First Run and Trouble Shooting</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Edit and Get Help</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#code-completion">Code completion</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#access-to-the-csound-manual">Access to the Csound Manual</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code-graph">Code Graph</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#inspector">Inspector</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#split-view">Split View</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#recompile-evaluate-python-code">Recompile / Evaluate Python Code</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_run/">Run or Render To File</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_widgets/">Widgets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_examples/">Examples</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_contribute/">Contribute</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configuration</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_run/">Run Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_advanced/">Advanced Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_general/">General Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_editor/">Editor Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_widgets/">Widgets Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_environment/">Environment Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_external/">External Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_template/">Template Tab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Menus</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../menu/">CsoundQt Menu Items</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Features</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../utilities/">Utilities</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html5/">HTML5 Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pythonqt/">PythonQt</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tips and Tricks</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tips/">Tips and Tricks</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CsoundQt 1.1.3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Getting Started</li>
+      <li class="breadcrumb-item active">Edit and Get Help</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="edit-and-get-help">Edit and Get Help</h1>
+<p>You can find a short description of all Menu Items in the <a href="../menu/">Menu</a> section of this documentation. This page focusses on some features of the CsoundQt Editor.</p>
+<h2 id="code-completion">Code completion</h2>
+<p>When you type, for instance, the letters "tab", you will see different options for code completion:</p>
+<p><img alt="code completion" src="../img/gs_edit-self-completion.png" /></p>
+<p>Choose one of them with the mouse or the arrow key. You have two choices now:<br />
+— <strong>tab</strong> will only complete the opcode name;<br />
+— <strong>return</strong> will also insert the arguments with the names found in the manual.</p>
+<p>Any of your own variable names will offer self-completion, too.</p>
+<h2 id="access-to-the-csound-manual">Access to the Csound Manual</h2>
+<p>When you select any opcode (double-click on it), or have the cursor in it, you can get the corresponding page of the Canonical Csound Manual by selecting either <em>Help &gt; Shop Opcode Entry</em> (or Shift+F1), or choose <em>Opcode Help</em> from the context menu (which you get by right-click on the opcode name).</p>
+<p><img alt="opcode help" src="../img/gs_edit-opcode-help.png" /></p>
+<p>You can also find a short info about the opcode at the bottom of the Editor's panel.</p>
+<h2 id="code-graph">Code Graph</h2>
+<p>Select <em>Examples &gt; Getting Started &gt; Toots &gt; Toot 1</em>, and then <em>View &gt; View Code Graph</em>. You should see this drawing:</p>
+<p><img alt="code graph" src="../img/gs_edit-code-graph.png" /></p>
+<p>It is not perfect, but quite useful to show the signal flow for simple csd files. If it is not working, try to set the graphviz dot application in <em>Configure &gt; External Programs &gt; Dot</em>.</p>
+<h2 id="inspector">Inspector</h2>
+<p>When you click on the <em>Inspector</em> button (or <em>View &gt; Inspector</em>), you get a panel which is quite useful for extended Csound code:</p>
+<p><img alt="inspector" src="../img/gs_edit-inspector.png" /></p>
+<p>You can navigate easily to any part of the code, or in the score.</p>
+<h2 id="split-view">Split View</h2>
+<p>Instead of the usual raw-text mode, CsoundQt offers a split view for both, the orchestra and the score. Go to <em>View &gt; Split View</em>, and you will see the score changed to a spread-sheet-like view, and the tags (CsOptions etc) disappeared. You can choose which sections to show or to hide:</p>
+<p><img alt="split view" src="../img/gs_edit-split-view.png" /></p>
+<h2 id="recompile-evaluate-python-code">Recompile / Evaluate Python Code</h2>
+<p>Since Csound 6, it is possible to change any instrument definition while Csound is running. CsoundQt provides an easy way of recompiling. This be your Csound code:</p>
+<pre><code>instr 1
+    schedkwhen metro(1), 0, 0, 2, 0, 1
+endin
+instr 2
+    prints "Hallo\n"
+endin
+schedule(1,0,1000)
+</code></pre>
+<p>Run this code and change the print statement in instrument 2 from "Hallo\n" to "HalloHallo\n" or whatever. Nothing will happen, as Csound needs a command to recompile instrument 2. Now place the cursor anywhere in instrument 2, go to the Edit menu, and select <em>Evaluate Section</em>. You will see a message in the console: "Csound code evaluated.", and after this message you will see the new printout.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../gs_firstrun/" class="btn btn-neutral float-left" title="First Run and Trouble Shooting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../gs_run/" class="btn btn-neutral float-right" title="Run or Render To File">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../gs_firstrun/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../gs_run/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
