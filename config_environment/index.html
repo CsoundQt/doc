@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Environment Tab - CsoundQt 1.1.3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Environment Tab";
+        var mkdocs_page_input_path = "config_environment.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CsoundQt 1.1.3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_firstrun/">First Run and Trouble Shooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_edit/">Edit and Get Help</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_run/">Run or Render To File</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_widgets/">Widgets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_examples/">Examples</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_contribute/">Contribute</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configuration</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../config_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_run/">Run Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_advanced/">Advanced Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_general/">General Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_editor/">Editor Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_widgets/">Widgets Tab</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Environment Tab</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#html-doc-directory">Html doc directory</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sadir-sound-analysis-directory">SADIR (Sound Analysis Directory)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ssdir-sound-sample-directory">SSDIR (Sound Sample Directory)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sfdir-sound-file-directory">SFDIR (Sound File Directory)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#incdir-include-directory">INCDIR (Include Directory)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#favorite-dir">Favorite dir</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#python-script-dir">Python script dir</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_external/">External Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_template/">Template Tab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Menus</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../menu/">CsoundQt Menu Items</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Features</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../utilities/">Utilities</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html5/">HTML5 Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pythonqt/">PythonQt</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tips and Tricks</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tips/">Tips and Tricks</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CsoundQt 1.1.3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Configuration</li>
+      <li class="breadcrumb-item active">Environment Tab</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="the-environment-tab">The <em>Environment</em> Tab</h1>
+<p><img alt="environment tab" src="../img/config_environment.png" /></p>
+<p>There are some important settings here, along with some only for developers. We will focus on the options which can be important for all users. </p>
+<h3 id="html-doc-directory">Html doc directory</h3>
+<p>This refers to the folder containing the Canonical Csound Manual. If you choose <em>View &gt; Help Panel</em>, and see nothing but a message like "not found!", you will have to set here the directory for the manual. Click on the browse button on the right side, and choose the folder where it is on your computer.    </p>
+<h3 id="sadir-sound-analysis-directory">SADIR (Sound Analysis Directory)</h3>
+<p>You can set here the directory in which Csound will seek for analysis files like <em>.pvx</em> files.   </p>
+<h3 id="ssdir-sound-sample-directory">SSDIR (Sound Sample Directory)</h3>
+<p>This is very useful to set a folder for sound samples, for instance used by <a href="http://csound.github.io/docs/manual/diskin.html">diskin</a>. You can then refer to the sample only by name.   </p>
+<h3 id="sfdir-sound-file-directory">SFDIR (Sound File Directory)</h3>
+<p>To specify a directory for output files. This is usually be done in the <em>Run</em> tab, as explained above (Output Filename).   </p>
+<h3 id="incdir-include-directory">INCDIR (Include Directory)</h3>
+<p>Specifies a directory for files which all called by the <a href="http://csound.github.io/docs/manual/include.html">#include</a> statement.   </p>
+<h3 id="favorite-dir">Favorite dir</h3>
+<p>Specifies a directory which will then appear under the menu as 'Favorites'.   </p>
+<h3 id="python-script-dir">Python script dir</h3>
+<p>Usually you will leave this empty so that CsoundQt links to the Python Scripts it comes with. Only specify if you build CsoundQt or want to change the scripts folder.   </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../config_widgets/" class="btn btn-neutral float-left" title="Widgets Tab"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../config_external/" class="btn btn-neutral float-right" title="External Tab">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../config_widgets/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../config_external/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

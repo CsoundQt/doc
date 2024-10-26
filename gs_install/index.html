@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Installation - CsoundQt 1.1.3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Installation";
+        var mkdocs_page_input_path = "gs_install.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CsoundQt 1.1.3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Installation</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#install-csound-first">Install Csound first!</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mac">Mac</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#linux">Linux</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_firstrun/">First Run and Trouble Shooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_edit/">Edit and Get Help</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_run/">Run or Render To File</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_widgets/">Widgets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_examples/">Examples</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_contribute/">Contribute</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configuration</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_run/">Run Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_advanced/">Advanced Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_general/">General Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_editor/">Editor Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_widgets/">Widgets Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_environment/">Environment Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_external/">External Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_template/">Template Tab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Menus</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../menu/">CsoundQt Menu Items</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Features</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../utilities/">Utilities</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html5/">HTML5 Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pythonqt/">PythonQt</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tips and Tricks</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tips/">Tips and Tricks</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CsoundQt 1.1.3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Getting Started</li>
+      <li class="breadcrumb-item active">Installation</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="installation">Installation</h1>
+<h2 id="install-csound-first">Install Csound first!</h2>
+<p>CsoundQt is not Csound. CsoundQt is a <em>frontend</em> for Csound. This means that you must install raw Csound first!</p>
+<p>Go to the <a href="https://csound.com/download.html">Csound Download Page</a>, choose the installer for your operating system, and install Csound. If you need more help, <a href="https://flossmanual.csound.com/how-to/installation">this how-to</a> might be useful.</p>
+<p><strong>Note:</strong> In some CsoundQt installers raw Csound is included. Look whether there is something like "<em>+Csound</em>" in the name, for instance <em>CsoundQt-1.1.3+Csound-6.18.1-Wind64.zip</em>.</p>
+<h2 id="mac">Mac</h2>
+<ol>
+<li>Download the <strong>CsoundQt-[Version Number]-MacOS.dmg</strong> from the
+<a href="https://github.com/CsoundQt/CsoundQt/releases">CsoundQt release page</a>.  <em>NOTE: Choose the plain version (without "pythonqt") for normal use.</em>  </li>
+<li>Open the <em>.dmg</em> and drag the green CsoundQt application into the Applications folder.</li>
+</ol>
+<h2 id="windows">Windows</h2>
+<ol>
+<li>Download the <strong>CsoundQt-[Version Number]-Win64.zip</strong> from the
+<a href="https://github.com/CsoundQt/CsoundQt/releases">CsoundQt release page</a>.    </li>
+<li>Unzip the file.  </li>
+<li>Go to the <em>bin</em> folder.  </li>
+<li>Select and copy the whole content of the <em>bin</em> folder.  </li>
+<li>Go to <em>C: -&gt; Program Files -&gt; Csound6_x64 -&gt; bin</em> and paste all the copied files here.  </li>
+<li>Send "CsoundQt-d-html-cs6.exe" from this folder as a shortcut to your desktop if you like. </li>
+</ol>
+<h2 id="linux">Linux</h2>
+<p>CsoundQt binaries are in most of the package managers.</p>
+<p>These binaries might be built without <em>RtMidi</em> and/or without <em>PythonQt</em> support. If you need to work with it, you should <strong>build CsoundQt</strong>. Instructions can be found at <a href="https://github.com/CsoundQt/CsoundQt/wiki">https://github.com/CsoundQt/CsoundQt/wiki</a> and in the <a href="https://github.com/CsoundQt/CsoundQt/blob/master/BUILDING.md">BUILDING.md</a> file in the sources.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../gs_firstrun/" class="btn btn-neutral float-right" title="First Run and Trouble Shooting">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../gs_firstrun/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
