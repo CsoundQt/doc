@@ -1,8 +1,10 @@
-###Issues
+# Tips and Tricks
+
+## Issues
 
 +    When you experience **crashes**, try to use **"Run in Term(inal)"** instead of the usual "Run". This will execute your Csound file in a Shell, and you may get error messages which helps you to find out the reason. (For instance a segmentation fault by Csound will by force crash CsoundQt, but should be visible in the Shell as "segfault" or similar.)
 
-+    Another frequent reason for crashes or hangs are **problems with the Audio or MIDI settings**. Open the *Configure* panel, and have a look at the *Run* tab. Try to set the *MIDI Input Device* to **none** (also the *Output Device*), and **uncheck** *Use Csound MIDI modules*. For **Audio**, check whether the *RT Audio Module* is set properly (try portaudio if you are not sure). Set the *Audio Input Device* and *Output Device* to -adc (input) and -odac (output). See the [Configure Doc Page](configuring-csoundqt.html) for more info.
++    Another frequent reason for crashes or hangs are **problems with the Audio or MIDI settings**. Open the *Configure* panel, and have a look at the *Run* tab. Try to set the *MIDI Input Device* to **none** (also the *Output Device*), and **uncheck** *Use Csound MIDI modules*. For **Audio**, check whether the *RT Audio Module* is set properly (try portaudio if you are not sure). Set the *Audio Input Device* and *Output Device* to -adc (input) and -odac (output). See the [Configure page](config_run.md) for more info.
 
 +    If this error message appears ...  
      `*** PortAudio: error: -9998: Invalid number of channels`  
@@ -18,7 +20,7 @@
 
 +    Sometimes for a new installation of CsoundQt, the keyboard shortcuts are missing. In this case, go to **Edit > Set Keyboard Shortcuts**, and click *Restore Defaults*.
 
-###Usage
+## Usage
 
 +    The **Examples** Menu provides a complete introduction to Csound and CsoundQt ("Getting Started"). You will also find the complete examples of the [Csound FLOSS Manual](http://floss.booktype.pro/csound/preface/), the [McCurdy Collection](http://iainmccurdy.org/csound.html) (adapted to Csoundqt) and many others.
 

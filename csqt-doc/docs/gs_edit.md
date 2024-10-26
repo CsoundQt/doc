@@ -1,10 +1,12 @@
-You can find a short description of all Menu Items in the [Menu](csoundqt-menus.html) section of this documentation. This page focusses on some features of the CsoundQt Editor.
+# Edit and Get Help
 
-##Code completion
+You can find a short description of all Menu Items in the [Menu](menu.md) section of this documentation. This page focusses on some features of the CsoundQt Editor.
+
+## Code completion
 
 When you type, for instance, the letters "tab", you will see different options for code completion:
 
-![code completion](|filename|/images/doc_editor_01.png)
+![code completion](img/gs_edit-self-completion.png)
 
 Choose one of them with the mouse or the arrow key. You have two choices now:  
 — **tab** will only complete the opcode name;  
@@ -13,39 +15,41 @@ Choose one of them with the mouse or the arrow key. You have two choices now:
 Any of your own variable names will offer self-completion, too.
 
 
-##Access to the Csound Manual
+## Access to the Csound Manual
 
-When you select any opcode (double-click on it), or have the cursor in it, you can get the corresponding page of the Canonical Csound Manual by selecting *Help > Shop Opcode Entry* (or Shift+F1).
+When you select any opcode (double-click on it), or have the cursor in it, you can get the corresponding page of the Canonical Csound Manual by selecting either *Help > Shop Opcode Entry* (or Shift+F1), or choose *Opcode Help* from the context menu (which you get by right-click on the opcode name).
+
+![opcode help](img/gs_edit-opcode-help.png)
 
 You can also find a short info about the opcode at the bottom of the Editor's panel.
 
 
-##Code Graph
+## Code Graph
 
 Select *Examples > Getting Started > Toots > Toot 1*, and then *View > View Code Graph*. You should see this drawing:
 
-![code graph](|filename|/images/doc_editor_02.png)
+![code graph](img/gs_edit-code-graph.png)
 
 It is not perfect, but quite useful to show the signal flow for simple csd files. If it is not working, try to set the graphviz dot application in *Configure > External Programs > Dot*.
 
 
-##Inspector
+## Inspector
 
 When you click on the *Inspector* button (or *View > Inspector*), you get a panel which is quite useful for extended Csound code:
 
-![inspector](|filename|/images/doc_editor_03.png)
+![inspector](img/gs_edit-inspector.png)
 
 You can navigate easily to any part of the code, or in the score.
 
 
-##Split View
+## Split View
 
 Instead of the usual raw-text mode, CsoundQt offers a split view for both, the orchestra and the score. Go to *View > Split View*, and you will see the score changed to a spread-sheet-like view, and the tags (CsOptions etc) disappeared. You can choose which sections to show or to hide:
 
-![split view](|filename|/images/doc_editor_04.png)
+![split view](img/gs_edit-split-view.png)
 
 
-##Recompile / Evaluate Python Code
+## Recompile / Evaluate Python Code
 
 Since Csound 6, it is possible to change any instrument definition while Csound is running. CsoundQt provides an easy way of recompiling. This be your Csound code:
 

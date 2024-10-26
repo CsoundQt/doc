@@ -1,7 +1,7 @@
 theme:
   name: readthedocs
   
-site_name: CsoundQt Documentation
+site_name: CsoundQt 1.1.3 Documentation
 
 nav:
   - Home: 'index.md'
@@ -9,9 +9,10 @@ nav:
     - Installation: 'gs_install.md'
     - First Run and Trouble Shooting: 'gs_firstrun.md'
     - Edit and Get Help: 'gs_edit.md'
-    - Run or Render to file: 'gs_run.md'
-    - Use  Widgets: 'gs_widgets.md'
-    - Configure CsoundQt and Csound: 'gs_configure.md'
+    - Run or Render To File: 'gs_run.md'
+    - Widgets: 'gs_widgets.md'
+    - Examples: 'gs_examples.md'
+    - Contribute: 'gs_contribute.md'
   - Configuration:
     - Introduction: 'config_intro.md'
     - Run Tab: 'config_run.md'
@@ -26,8 +27,8 @@ nav:
     - CsoundQt Menu Items: 'menu.md'
   - Additional Features:
     - Utilities: 'utilities.md'
-    - PythonQt: 'pythonqt.md'
     - HTML5 Support: 'html5.md'
-    - Live Event Sheet: 'live.md'
+    - PythonQt: 'pythonqt.md'
   - Tips and Tricks: 
     - Tips and Tricks: 'tips.md'
+
