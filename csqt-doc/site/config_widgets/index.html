@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Widgets Tab - CsoundQt 1.1.3 Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Widgets Tab";
+        var mkdocs_page_input_path = "config_widgets.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CsoundQt 1.1.3 Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_install/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_firstrun/">First Run and Trouble Shooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_edit/">Edit and Get Help</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_run/">Run or Render To File</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_widgets/">Widgets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_examples/">Examples</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../gs_contribute/">Contribute</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Configuration</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../config_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_run/">Run Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_advanced/">Advanced Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_general/">General Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_editor/">Editor Tab</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Widgets Tab</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#enable-widgets">Enable Widgets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#save-widgets-in-csd-file">Save Widgets in csd file</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#show-widgets-on-play">Show Widgets on play</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#show-tooltips-for-widgets">Show tooltips for widgets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#open-properties-when-creating-widgets">Open properties when creating widgets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#widgets-are-an-independent-window">Widgets are an independent window</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#font-scaling-font-offset">Font scaling / Font offset</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_environment/">Environment Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_external/">External Tab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../config_template/">Template Tab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Menus</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../menu/">CsoundQt Menu Items</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Features</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../utilities/">Utilities</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html5/">HTML5 Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pythonqt/">PythonQt</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tips and Tricks</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tips/">Tips and Tricks</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CsoundQt 1.1.3 Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Configuration</li>
+      <li class="breadcrumb-item active">Widgets Tab</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="the-widgets-tab">The <em>Widgets</em> Tab</h1>
+<p><img alt="widgets tab" src="../img/config_widgets.png" /> </p>
+<h3 id="enable-widgets">Enable Widgets</h3>
+<p>If not checked, you cannot use any of CsoundQt's widgets.   </p>
+<h3 id="save-widgets-in-csd-file">Save Widgets in csd file</h3>
+<p>Each csd file has a section for widgets and presets. These sections are hidden when you open your csd file in CsoundQt, but are visible in any text editor. So if you do not have checked this option, you will not see any of your widgets the next time you open your csd. So, only useful if you want to export a csd without the widget tags.   </p>
+<h3 id="show-widgets-on-play">Show Widgets on play</h3>
+<p>If checked, the widget panel will pop up each time you push the Play button.   </p>
+<h3 id="show-tooltips-for-widgets">Show tooltips for widgets</h3>
+<p>Enables a useful feature which lets you see the channel name of a widget if you stay a moment on it with the computer mouse.   </p>
+<p>Enable FLTK </p>
+<p><a href="http://csound.github.io/docs/manual/ControlFltkIntro.html">FLTK</a> means a built-in (and somehow outdated) method of using widgets in Csound. As these widgets could conflict with CsoundQt's own widgets, you will usually uncheck this.   </p>
+<h3 id="open-properties-when-creating-widgets">Open properties when creating widgets</h3>
+<p>Usually you will this have ticked, to enter your channel name and other properties when you create a widget.   </p>
+<h3 id="widgets-are-an-independent-window">Widgets are an independent window</h3>
+<p>CsoundQt consists of many subwindows except the main Editor panel: the Console, the Help (Manual), the Inspector, and so on. If you check this option, the widget panel will not be considered as one of them, but as independent window. This means that you cannot dock it by double-clicking on the top, like all the other subwindows, but it may have advantages anyhow, depending on your operating system and your configuration.    </p>
+<h3 id="font-scaling-font-offset">Font scaling / Font offset</h3>
+<p>Affects the way the fonts are shown for instance in a Label widget.   </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../config_editor/" class="btn btn-neutral float-left" title="Editor Tab"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../config_environment/" class="btn btn-neutral float-right" title="Environment Tab">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../config_editor/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../config_environment/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
