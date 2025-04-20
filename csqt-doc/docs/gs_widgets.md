@@ -4,6 +4,8 @@ CsoundQt offers a set of widgets to create a Graphical User Interface (GUI). Wid
 
 You will find a built-in documentation of the widget in CsoundQt's Examples > Widgets. It is recommended to read and click it in addition to the description here.
 
+![widgets overview](img/gs_widgets-overview.png)
+
 
 ## How to Create a Widget
 

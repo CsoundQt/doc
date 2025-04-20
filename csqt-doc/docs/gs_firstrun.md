@@ -2,6 +2,8 @@
 
 After installing Csound and CsoundQt, start CsoundQt. You will see an editor with different tabs.
 
+![run overview](img/gs_firstrun-overview.png)
+
 ## Run Example
 
 Navigate to the *Hello World* example in the built-in *Getting Started* tutorial of CsoundQt:

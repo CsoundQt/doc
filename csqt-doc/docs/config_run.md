@@ -1,6 +1,6 @@
 # The *Run* Tab
 
-![run tab](img/config_run.png)   
+![run tab](img/config_run-overview.png)   
 
 The settings at the top of the “Run” tab allow the user to define the command-line flags with which Csound is invoked. 
 
