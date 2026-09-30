@@ -173,3 +173,34 @@ This widget is not under the *Create Widget* submenu, as it is not part of the w
 If your CsoundQt has been compiled with RtMidi support, you can assign any MIDI controller directly to any widget. Just open the properties and type in MIDI channel and Controller Number, or use the MIDI Learn functionality.  
 ![midi learn](img/doc_widgets_20.png)
 
+## Animation
+Since CsoundQt 7.2, widgets can be animated via
+
+    outvalue("<channel>/<property>", <value>)
+    
+`<channel>` is the name of the widget's channel;  
+`<property>` is the property you want to modify, like color, size, x/y position;  
+`<value>` is the value to assign. 
+
+This code lets a widget with channel "meter" jump from x=50 to x=150 every second:
+
+    x:k = (int(eventtime()) % 2 == 0) ? 50 : 150
+    outvalue("meter/x",x)
+    
+The properties which can be set are listed when pushing the "Show Properties" button in the Widget Properties:
+
+![show properties](img/doc_widgets_21.png)
+
+Most properties are numerical, or 1/0 for True/False. Colors are given as hexadecimal string in the format `#RRGGBB`, resulting in values 0-255 as 00 to FF for red, green, and blue. So pure red can be set as
+
+    outvalue("meter/color","#FF0000")
+    
+If necessary, the [sprintfk](http://csound.github.io/docs/manual/sprintfk.html) opcode can be used with the `%02x` formatter to convert 0-255 to hexadecimal values. This code increases and decreases the red during five seconds from black to full and vice versa:
+
+    red:k = mirror(line(0,5,255),0,255)
+    c:S = sprintfk("#%02x%02x%02x",red,0,0)
+    outvalue("meter/color",c)
+
+An instructive example can be found in CsoundQt's Examples menu (CsoundQt > C Widgets > Widgets Animation).
+
+
